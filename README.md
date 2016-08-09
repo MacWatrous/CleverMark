@@ -1,5 +1,5 @@
-# CaptainMarkov
-A project that utilizes a database of Star Trek scripts to generate new phrases, such as captains logs, commands to the computer, or lines of dialogue from a specified character
+# CleverMark
+A fork of a Star Trek Markov Chain generator twitter bot, this bot pulls from a database of classic novels to spit out witty Markov chains.
 
 ## How It Works
 Scripts are pulled from http://www.chakoteya.net/ using the ScriptScraper class and saved into "./scripts/SeriesName/EpisodeNum.txt". This is done the first time your run the program, and can take a long time.
